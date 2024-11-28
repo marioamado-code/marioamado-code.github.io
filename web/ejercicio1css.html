@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio css</title>
+	<style type="text/css">
+	#parrafo1{
+		text-align: right;
+		font-style: italic;
+
+	}
+	#parrafo2{
+		text-transform: uppercase;
+		text-decoration: line-through;
+	}
+	#parrafo3{
+		font-family: Helvetica, Verdana, “Times New Roman”, serif;
+		font-size:120%;
+	}
+	#parrafo4{
+		font-weight:bold;
+		text-shadow: -4px 3px 5px seagreen;
+	}
+
+	#bloque1{
+	background-color: grey;
+
+	}
+	#bloque2{
+		background-color: beige;
+
+	}
+	#bloque3{
+		background-color: seagreen;
+
+	}
+	.bloques{
+		display: inline-block;
+		height: 200px;
+		width:400px;
+		border-radius:  5px 8px 5px 8px;
+	}
+</style>
+</head>
+<body>
+	<h1>css: ejercicio 1</h1>
+	<p id="parrafo1">este es el parrafo numero 1 en cursiva y alineado a la derecha</p>
+	<p id="parrafo2">este tambien es un parrafo en minusculas pero convertido en mayusculas y tachado</p>
+	<p id="parrafo3" >como no hay dos sin tres, este será el tercero con un tipo de letra diferente y un 20% mas grande
+		<p id="parrafo4">y por ultimo, un texto en negrita y con sombrita en verde</p>
+
+
+		<div class ="bloques" id="bloque1">
+
+			<p>buscadores</p>
+			<p><a href="">DuckDuckGo</a></p>
+			<p><a href="">Ecosia</a></p>
+			<p><a href="">Google</a></p>
+		</div>
+		
+		<div  class ="bloques" id="bloque2">
+
+			<p>redes sociales</p>
+
+			<p><a href="">Facebook</a></p>
+			<p><a href="">Twitter</a></p>
+			<p><a href="">Pinterest</a></p>
+		</div>
+
+		<div  class ="bloques" id="bloque3">
+
+			<p>noticias</p>
+			<p><a href="">El País</a></p>
+			<p><a href="">El Diario</a></p>
+			<p><a href="">El Mundo</a></p>
+		</div>
+
+</body>
+</html>
